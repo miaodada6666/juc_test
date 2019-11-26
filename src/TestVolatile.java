@@ -1,5 +1,5 @@
 public class TestVolatile{
-
+    //volatile只能保证修改可见性 不能保证原子性和互斥性
     public static void main(String[] args){
         ThreadDemo td = new ThreadDemo();
         new Thread(td).start();
